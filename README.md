@@ -7,7 +7,7 @@ Currently, this implementation is not very efficient and it is very slow when th
 However, one can significantly improve the running time by eliminating many permutations based on the fact that the minimal permutation should correspond to a closed characteristic on the boundary of K (see Remark 3.11 in the aforementioned paper).
 I will upload an updated version soon.
 
-The software was developed on Matlab R2021b.
+This software was developed in Matlab R2021b.
 
 An example for calculating the capacity of the Lagrangian product of the standard cube and the cross polytope
 >> Q = [-1 -1; -1 1; 1 -1; 1 1];
