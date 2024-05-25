@@ -11,6 +11,9 @@ The software was developed on Matlab R2021b.
 
 An example for calculating the capacity of the Lagrangian product of the standard cube and the cross polytope
 >> Q = [-1 -1; -1 1; 1 -1; 1 1];
+>> 
 >> CP = [eye(2); -eye(2)];
+>> 
 >> QXCP = KtimesT(Q,CP);
+>> 
 >> c = EHZ_perms(QXCP)
